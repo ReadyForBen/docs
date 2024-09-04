@@ -41,15 +41,14 @@
       "name": "Community",
       "icon": "slack",
       "url": "https://discord.com/invite/UHYrYSpwPb"
-    },
+    }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
         "introduction",
-        "test",
-
+        "test"
       ]
     },
     {
