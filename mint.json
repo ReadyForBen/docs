@@ -50,7 +50,7 @@
         "introduction",
         "test"
       ]
-    }
+    },
     {
       "group": "ChangeLog History",
       "pages": [
@@ -61,6 +61,6 @@
     }
   ],
   "footerSocials": {
-    "x": "https://x.com/inactiveben",
+    "x": "https://x.com/inactiveben"
   }
 }
