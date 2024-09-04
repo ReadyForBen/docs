@@ -33,7 +33,7 @@
   ],
   "anchors": [
     {
-      "name": "ChangeLogs",
+      "name": "Documentation",
       "icon": "book-open-cover",
       "url": "https://docs.kousai.co/changelogs/introduction"
     },
@@ -52,11 +52,11 @@
       ]
     },
     {
-      "group": "ChangeLog History",
+      "group": "ChangeLogs",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "changelogs/introduction",
+        "changelogs/updates",
+        "changelogs/history"
       ]
     }
   ],
