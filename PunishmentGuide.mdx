@@ -1,60 +1,44 @@
 ---
-title: 'SODATO STAFF CONSEQUENCES'
-description: 'A comprehensive guide outlining the consequences and punishments for staff members within the Sodato facilities and Discord server.'
-icon: 'gavel'
+title: "Accordions"
+description: "A dropdown component for toggling content"
+icon: "square-caret-down"
 ---
 
-## Staff Punishments
-**Last updated:** 12/24/2023  
-^ Created & Edited
+<Accordion title="I am an Accordion.">
+  You can put any content in here. Check out
+  [AccordionGroup](/content/components/accordion-groups) if you want to group
+  multiple Accordions into a single display.
+</Accordion>
 
-### DOCUMENT INTRODUCTION
-Greetings, executives! This document will cover punishments within our facilities and Discord server. You will find a range of consequences for actions. Please keep in mind, not everything will be listed. However, the Human Resources Department takes votes on actions. Additionally, consequences vary depending on the severity of the action. If you have any questions regarding consequences, don’t hesitate to direct message a member of the Human Resources team.
+<RequestExample>
 
-### CONSEQUENCES
-- **Blacklist** = <Tooltip tip="You will be unable to work as a Management member.">unable to work as a Management member</Tooltip>
-- **Termination** = <Tooltip tip="You will be unable to work as a Management member for some time.">unable to work as a Management member for some time</Tooltip>
-- **3 warnings** = <Tooltip tip="Warnings are reset every half year (6 months).">Demotion</Tooltip> (warnings are reset every half year, 6 months)
+```jsx Accordion Example
+<Accordion title="I am an Accordion.">
+  You can put any content in here.
+</Accordion>
+```
 
-### PUNISHMENTS
-- **Trolling** (includes our Discord server): 
-  - 1st action: Reminder
-  - 2nd action: Warning
-  - 3rd action: Demotion
+</RequestExample>
 
-- **Disrespecting** (peers, customers, etc.): 
-  - 1st action: Warning
-  - 2nd action: Demotion
+## Props
 
-- **Offensive Comments**: 
-  - Immediate termination & staff blacklist (unable to work as a Management member)
+<ResponseField name="title" type="string" required>
+  Title in the Accordion preview.
+</ResponseField>
 
-- **Exploiting within our facilities**: 
-  - Immediate termination & staff blacklist (unable to work as a Management member)
+<ResponseField name="description" type="string">
+  Detail below the title in the Accordion preview.
+</ResponseField>
 
-- **Trash Talking** (includes alliances, staff members, etc.): 
-  - 1st action: Warning
-  - 2nd action: Demotion
+<ResponseField name="defaultOpen" type="boolean" default="false">
+  Whether the Accordion is open by default.
+</ResponseField>
 
-- **Not completing requirements**: 
-  - 1st action: Warning
-  - 2nd action: Demotion (exempt if on IN)
+<ResponseField name="icon" type="string or svg">
+  A [Font Awesome icon](https://fontawesome.com/icons) or SVG code
+</ResponseField>
 
-- **Leaking any confidential information**: 
-  - Immediate termination; discussed upon Human Resources
-
-- **Admin abusing** (Discord & Roblox): 
-  - Immediate termination & staff blacklist (unable to work as a Management member)
-
-- **NSFW Behavior**: 
-  - 1st action: Warning
-  - 2nd action: Termination
-
-- **Inappropriate Avatar**: 
-  - 1st action: Reminder
-  - 2nd action: Warning
-  - 3rd action: Termination
-
-- **Minute Cheating**: 
-  - 1st action: Warning
-  - 2nd action: Demotion
+<ResponseField name="iconType" type="string">
+  One of "regular", "solid", "light", "thin", "sharp-solid", "duotone", or
+  "brands"
+</ResponseField>
