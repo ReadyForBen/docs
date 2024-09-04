@@ -1,48 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Coming Soon</title>
-  <style>
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background-color: #1a1a1a;
-      color: #ffffff;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      flex-direction: column;
-      text-align: center;
-    }
-    h1 {
-      font-size: 3rem;
-      margin-bottom: 1rem;
-    }
-    p {
-      font-size: 1.5rem;
-      margin-bottom: 2rem;
-    }
-    a {
-      color: #FA4463;
-      text-decoration: none;
-      font-size: 1.2rem;
-      margin: 0 1rem;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-  </style>
-</head>
-<body>
-  <h1>Coming Soon</h1>
-  <p>We're working hard to bring you something amazing! Stay tuned.</p>
-  <p>
-    <a href="https://www.roblox.com/groups/14282486/Kousai#!/about" target="_blank">Join our Roblox Group</a>
-    <a href="https://discord.com/invite/UHYrYSpwPb" target="_blank">Join our Discord Server</a>
-  </p>
-</body>
-</html>
+---
+title: Coming Soon
+description: 'Stay tuned for something amazing'
+---
+
+<img
+  className="block dark:hidden"
+  src="/images/coming-soon-light.svg"
+  alt="Coming Soon Light"
+/>
+<img
+  className="hidden dark:block"
+  src="/images/coming-soon-dark.svg"
+  alt="Coming Soon Dark"
+/>
+
+## Stay Tuned
+
+We’re working hard to bring you something amazing! In the meantime, connect with us:
+
+<CardGroup cols={2}>
+  <Card
+    title="Join our Roblox Group"
+    icon="gamepad"
+    href="https://www.roblox.com/groups/14282486/Kousai#!/about"
+  >
+    Be part of our community on Roblox and stay updated.
+  </Card>
+  <Card
+    title="Join our Discord Server"
+    icon="discord"
+    href="https://discord.com/invite/UHYrYSpwPb"
+  >
+    Connect with us on Discord for the latest news and updates.
+  </Card>
+</CardGroup>
