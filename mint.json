@@ -22,39 +22,34 @@
     }
   ],
   "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
+    "name": "Discord",
+    "url": "https://discord.com/invite/UHYrYSpwPb"
   },
   "tabs": [
     {
-      "name": "API Reference",
-      "url": "api-reference"
+      "name": "ChangeLogs",
+      "url": "changelogs"
     }
   ],
   "anchors": [
     {
-      "name": "Documentation",
+      "name": "ChangeLogs",
       "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
+      "url": "https://docs.kousai.co/changelogs/introduction"
     },
     {
       "name": "Community",
       "icon": "slack",
-      "url": "https://mintlify.com/community"
+      "url": "https://discord.com/invite/UHYrYSpwPb"
     },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
   ],
   "navigation": [
     {
       "group": "Get Started",
       "pages": [
         "introduction",
-        "quickstart",
-        "development"
+        "test",
+
       ]
     },
     {
@@ -75,7 +70,7 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "ChangeLog History",
       "pages": [
         "api-reference/endpoint/get",
         "api-reference/endpoint/create",
